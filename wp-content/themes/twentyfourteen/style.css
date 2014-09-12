@@ -1,0 +1,18 @@
+#menu-header{ text-transform: uppercase; }
+.site-header{background-color: #DCE6F2;}
+.faixa{ width: 100%;}
+.top-fix { background-color: #F4BA40; height: 40px;}
+.navbar .nav,
+.navbar .nav > li {float:none; display:inline-block; *display:inline; /* ie7 fix */ *zoom:1; /* hasLayout ie7 trigger */ vertical-align: top;}
+.navbar{ margin-bottom: 0;}
+#nav-menu-header {
+  text-align:center;
+}
+
+
+
+@media (min-width: 768px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}

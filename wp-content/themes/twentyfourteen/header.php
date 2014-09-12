@@ -38,7 +38,12 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="faixa top-fix">
 			<div class="container">
-
+				<ul class="list-inline content-top pull-right">
+				  <li>Questionários</li>
+				  <li>Área Restrita Screeners</li>
+				  <li>Contato</li>
+				  <li>(31) 3289-2000</li>
+				</ul>						
 			</div>
 		</div>
 		<div class="container">

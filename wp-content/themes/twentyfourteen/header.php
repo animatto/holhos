@@ -20,7 +20,7 @@
 	<![endif]-->
 
 	<!-- CSS do Bootstrap -->
-	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet" media="screen">
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.css" rel="stylesheet">
 
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -49,7 +49,6 @@
 		<div class="container">
 			<img src="<?php bloginfo('template_url'); ?>/images/logo-holhos.png" alt="Logo H'Olhos">
 			<nav id="menu-header" class="navbar" role="navigation">
-			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu-header">
@@ -67,7 +66,7 @@
 			        <li><a href="#">Quem Somos</a></li>
 			        <li><a href="#">Projetos</a></li>
 				        <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Neurovisão <span class="caret"></span></a>
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Neurovisão</a>
 				          <ul class="dropdown-menu" role="menu">
 				            <li><a href="#">O que é</a></li>
 				            <li class="divider"></li>
@@ -82,13 +81,12 @@
 				        </li>
 				        <li><a href="#">Loja Virtual</a></li>
 				        <li><a href="#">Guia de Profissionais</a></li>
-				        <li><a href="#">Cursos</a></li>
+				        <li><a href="#">Cursos e Congressos</a></li>
 				        <li><a href="#">Artigos</a></li>
 				        <li><a href="#">Mídias</a></li>
 			      </ul>
 			     
 			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
 			</nav>
 		</div>
 	</header><!-- #masthead -->

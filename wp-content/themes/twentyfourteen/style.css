@@ -1,3 +1,6 @@
+a { color: #051F40;}
+a:hover { color: #051F40;}
+
 #menu-header{ text-transform: uppercase; }
 .site-header{background-color: #DCE6F2;}
 .faixa{ width: 100%;}
@@ -7,6 +10,9 @@
 .navbar{ margin-bottom: 0;}
 #nav-menu-header {  text-align:center;margin-top: 20px;}
 .content-top {margin-top: 10px;}
+.nav>li>a:hover, .nav>li>a:focus{ border-bottom:2px solid #F4BA40;}
+.nav>li>a, .nav>li>a { border-bottom: 2px solid transparent;}
+
 
 
 @media (min-width: 768px) {

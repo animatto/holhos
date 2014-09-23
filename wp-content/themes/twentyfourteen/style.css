@@ -1,22 +1,64 @@
 a { color: #051F40;}
 a:hover { color: #051F40;}
+p { color:#4C4C4C;}
+body{ background-color: #DCE6F2;}
 
-#menu-header{ text-transform: uppercase; }
+.title-border {border-bottom: 1px solid #C2C2C5;margin-bottom: 10px;}
+.title-border > * {display: inline-block; margin-bottom: -1px;}
+
+/* Header */
+#menu-header{ text-transform: uppercase; margin-top: 40px;}
 .site-header{background-color: #DCE6F2;}
 .faixa{ width: 100%;}
-.top-fix { background-color: #F4BA40; height: 40px;margin-bottom: 20px;}
-.navbar .nav,
-.navbar .nav > li {float:none; display:inline-block; *display:inline; /* ie7 fix */ *zoom:1; /* hasLayout ie7 trigger */ vertical-align: top;}
-.navbar{ margin-bottom: 0;}
+.top-fix { background-color: #F4BA40; height: 40px;margin-bottom: 20px; }
+.top-fix a{ color: #0D7084;}
+.top-fix a:hover{ color: #051F3F;}
+.top-fix li { padding: 0 0 0 50px; }
+
+/* Menu */
+.navbar{ margin-bottom: 0;min-height: 0;border: none; font-family: 'Source Sans Pro', sans-serif; font-size: 16px;}
+.navbar .nav,.navbar .nav > li {float:none; display:inline-block; *display:inline; /* ie7 fix */ *zoom:1; /* hasLayout ie7 trigger */ vertical-align: top;}
 #nav-menu-header {  text-align:center;margin-top: 20px;}
 .content-top {margin-top: 10px;}
 .nav>li>a:hover, .nav>li>a:focus{ border-bottom:2px solid #F4BA40;}
-.nav>li>a, .nav>li>a { border-bottom: 2px solid transparent;}
+.nav>li>a{ border-bottom: 2px solid transparent; padding: 0 0 5px 0;font-size: 16px;}
+#nav-menu-header .nav>li {padding: 0 24px;}
+#nav-menu-header .nav>li:nth-last-child(1) { padding-right: 0;}
+#nav-menu-header .nav>li:nth-child(1) { padding-left: 0;}
+
+/* Busca */
+input.busca { width:98%; height: 48px;text-indent: 5px;}
+input.submit-busca {margin-left: -38px;margin-top: 10px;position: absolute;}
+.form-busca{ position: relative; bottom: -20px;}
+
+/* Home */
+/* span.glyphicon.glyphicon-chevron-right:hover:before, span.glyphicon.glyphicon-chevron-left:hover:before {color: #F4BA40;} */
+.homebox .wrap-img { position: relative;}
+.homebox .wrap-img img{ width: 100%;}
+.homebox .glyphicon.glyphicon-plus {padding: 7px 7px 0px 8px;top: -1px; color: #FFF;}
+.btn-more {position: absolute;bottom: 0;right: 0;background-color: #0D7084;}
+ .title-default{ padding-bottom: 5px;border-bottom: 3px solid #F4BA40; color: #0C7084;}
+ .homebox p {margin: 10px 0;}
+ .eventos {width: 100%;height: 160px;background-color: #FFFFFF;margin: 20px 0 30px;}
+.calendario-home {background-image: url("images/calendario.png");background-repeat: no-repeat;background-position: 50% 50%;height: 100%;}
+
+
+/* Footer */
+footer{ background-color: #F4BA40; color: #0C7084; font-family: 'Source Sans Pro', sans-serif;padding: 0 0 30px 0;}
+footer h3{ padding-bottom: 5px;border-bottom: 3px solid #0D7084; color: #0C7084;}
+.socials a{color:black; display: inline-block;width:42px;height:42px;top:0;background-image: url("images/socials.png"); margin-right: 4px;}
+.socials .face { background-position: 0px -44px;}
+.socials .insta { background-position: 0px -88px; margin-right: 0;}
+.boxfooter form input[type="text"], .boxfooter form input[type="email"], .boxfooter form textarea { width: 100%; background-color: rgba(255, 255, 255, 0.40); border: none; margin-bottom: 8px; padding: 5px 1%;}
+form input[type="submit"]{ background-color: #0D7084;border: none;color: #FFF;padding: 2px 15px;font-size: 16px;}
+.boxfooter ul{ font-size: 16px;}
+footer .title-border {border-bottom: 1px solid #FFF;}
+
+
 
 
 
 @media (min-width: 768px) {
-	.dropdown:hover .dropdown-menu {
-		display: block;
-	}
+	.dropdown:hover .dropdown-menu {display: block;}
+	.navbar-collapse.collapse {padding: 0;}
 }

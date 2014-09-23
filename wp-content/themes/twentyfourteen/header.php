@@ -24,9 +24,10 @@
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.css" rel="stylesheet">
 
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-
 	<!-- JavaScript do Bootstrap -->
 	<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -38,16 +39,26 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="faixa top-fix">
 			<div class="container">
-				<ul class="list-inline content-top pull-right">
-				  <li>Questionários</li>
-				  <li>Área Restrita Screeners</li>
-				  <li>Contato</li>
-				  <li>(31) 3289-2000</li>
+				<ul class="navbar list-inline content-top pull-right">
+				  <li><a href="#">Questionários</a></li>
+				  <li><a href="#">Área Restrita Screeners</a></li>
+				  <li><a href="#">Contato</a></li>
+				  <li><a href="#">(31) 3289-2000</a></li>
 				</ul>						
 			</div>
 		</div>
 		<div class="container">
-			<img src="<?php bloginfo('template_url'); ?>/images/logo-holhos.png" alt="Logo H'Olhos">
+			<div class="row">
+				<div class="col-sm-8 col-md-8">
+					<img src="<?php bloginfo('template_url'); ?>/images/logo-holhos.png" alt="Logo H'Olhos">
+				</div>
+				<div class="col-sm-4 col-md-4">
+					<form class="form-busca" name="form-busca" method="get" action="busca.php">
+						<input type="text" placeholder="O que você procura?" name="busca" class="busca" />
+						<input class="submit-busca" type="image" src="<?php bloginfo('template_url'); ?>/images/lupa.png" value="buscar" />
+					</form>
+				</div>
+			</div>
 			<nav id="menu-header" class="navbar" role="navigation">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
